@@ -1,36 +1,36 @@
 USE Human_friends;
 
-INSERT INTO cats (Name, Birthday, Commands, Genus_id)
+INSERT INTO cat (Name, Birthday, Commands, Genus_id)
 VALUES ('Борис', '2019-11-01', 'Сидеть', 1),
 ('Рыжик', '2020-02-02', 'лежать', 1),
 ('Белка', '2021-22-03', 'ко мне', 1),
 ('Кузя', '2022-03-04', 'сидеть, прыжок', 1); 
 
-INSERT INTO dogs (Name, Birthday, Commands, Genus_id)
+INSERT INTO dog (Name, Birthday, Commands, Genus_id)
 VALUES ('Спарки', '2021-03-12', 'сидеть, лежать, ко мне', 2),
 ('Поли', '2022-05-11', 'сидеть, лежать, лапу', 2),
 ('Хеппи', '2021-12-10', 'сидеть, лежать, лапу, фас, ко мне', 2), 
 ('Джес', '2019-21-11', 'сидеть, лежать', 2);
 
-INSERT INTO hamsters (Name, Birthday, Commands, Genus_id)
+INSERT INTO hamster (Name, Birthday, Commands, Genus_id)
 VALUES ('Умка', '2022-23-10', NULL, 3),
 ('Зола', '2021-27-12', NULL, 3),
 ('Ами', '2021-13-02', NULL, 3), 
 ('Бонни', '2022-17-04', NULL, 3);
 
-INSERT INTO horses (Name, Birthday, Commands, Genus_id)
+INSERT INTO horse (Name, Birthday, Commands, Genus_id)
 VALUES ('Фантом', '2018-14-05', 'стой, вперёд', 1),
 ('Пегас', '2017-15-05', 'стой, вперёд, хоп', 1),
 ('Зефир', '2018-22-11', 'стой, вперёд, хоп, шагом', 1), 
 ('Барон', '2016-03-04', 'хоп, рысь, шагом, стой, вперёд', 1);
 
-INSERT INTO donkeys (Name, Birthday, Commands, Genus_id)
+INSERT INTO donkey (Name, Birthday, Commands, Genus_id)
 VALUES ('Берти', '2020-10-01', NULL, 2),
 ('Диор', '2021-20-02', NULL, 2),
 ('Дора', '2020-01-10', NULL, 2), 
 ('Берги', '2019-02-12', NULL, 2);
 
-INSERT INTO camels (Name, Birthday, Commands, Genus_id)
+INSERT INTO camel (Name, Birthday, Commands, Genus_id)
 VALUES ('Янко', '2020-15-11', 'иди, стоять, лежать', 3),
 ('Барт', '2019-21-12', 'иди, стоять', 3),
 ('Гизмо', '2018-08-08', 'иди, стоять, скорее', 3), 
